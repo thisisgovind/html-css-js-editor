@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Online Code Editor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🌐 Online Code Editor</h1>
+    <button class="dark-toggle" onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
+  </header>
+
+  <main class="container">
+    <div class="panels">
+      <div class="panel">
+        <label>HTML</label>
+        <textarea id="html-code" placeholder="Write HTML code here..."></textarea>
+      </div>
+      <div class="panel">
+        <label>CSS</label>
+        <textarea id="css-code" placeholder="Write CSS code here..."></textarea>
+      </div>
+      <div class="panel">
+        <label>JavaScript</label>
+        <textarea id="js-code" placeholder="Write JavaScript code here..."></textarea>
+      </div>
+    </div>
+
+    <button onclick="runCode()">▶ Run Code</button>
+
+    <div class="output-section">
+      <h2>Output</h2>
+      <iframe id="output" sandbox="allow-scripts"></iframe>
+    </div>
+  </main>
+
+  <footer>
+    <p>Made with ❤️ using HTML, CSS & JS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
