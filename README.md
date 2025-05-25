@@ -47,4 +47,4 @@ Allows you to write and preview HTML, CSS, and JavaScript code live in your brow
 
 ## License
 
-MIT License © Your Name
+MIT License © Govind
